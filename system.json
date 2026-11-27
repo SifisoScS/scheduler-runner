@@ -1,0 +1,36 @@
+{
+  "system": "task-scheduler",
+  "role": "module",
+  "related": [
+    "scheduler-recurring",
+    "scheduler-monitor",
+    "queue-worker",
+    "queue-processor",
+    "queue-dispatcher",
+    "queue-retry",
+    "queue-throttle",
+    "queue-publisher",
+    "queue-consumer",
+    "queue-router",
+    "job-runner",
+    "job-tracker",
+    "job-planner",
+    "job-store",
+    "job-monitor",
+    "job-executor",
+    "job-logger"
+  ],
+  "quality": {
+    "typeSafety": 1,
+    "exportCompleteness": 0.7,
+    "documentationDensity": 1,
+    "testPresence": 1,
+    "overallScore": 0.91,
+    "passed": true,
+    "evaluatedAt": "2026-11-27T15:05:01.118Z"
+  },
+  "regressionReport": {
+    "regressionDetected": false,
+    "regressions": []
+  }
+}
